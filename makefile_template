@@ -1,0 +1,6 @@
+all:
+	g++ file_name.cpp
+run:
+	./a.out < in > out
+clean:
+	rm *.o a.out
