@@ -38,7 +38,7 @@ int main(int argc, char const *argv[]) {
 		cin >> h >> r;
 		set_tree_data(&T[i], h, r);
 	}
-	sort(T, T + N, cmp);
+	sort(T, T + N, cmp);	// N log N
 
 	int64_t cur_month = T[0].month;
 
