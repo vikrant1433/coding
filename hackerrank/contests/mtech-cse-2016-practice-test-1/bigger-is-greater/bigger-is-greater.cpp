@@ -5,6 +5,6 @@ using namespace std;
 #define MOD (1000000000+7)
 
 int main(int argc, char const *argv[]) {
-	
+
 	return 0;
 }
